@@ -6,12 +6,18 @@ def positive_check(check_list):
     for i in check_list:
         if i < 0:
             raise ValueError("Takes only positive values, negative(s) were given")
-    return
+
+
+def integer_check(to_sort):
+    for value in to_sort:
+        if not isinstance(value, int):
+            raise ValueError("Takes only integer values, float were given")
 
 
 def counting_sort(to_sort):
     values_check(to_sort)
     positive_check(to_sort)
+    integer_check(to_sort)
 
     start_timer = perf_counter()
     highest = max(to_sort)

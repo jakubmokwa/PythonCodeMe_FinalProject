@@ -25,7 +25,7 @@ def quick_sort(to_sort):
     values_check(to_sort)
 
     start_timer = perf_counter()
-    quick_sort(to_sort)
+    to_sort = sort(to_sort)
     end_timer = perf_counter() - start_timer
 
     return to_sort, end_timer
