@@ -1,4 +1,4 @@
-# PythonCodeMe_FinalProject
+# Python CODE:ME Final Project
 Sorting Algorithms
 Project is a summation of knowledge acquired during 'CODE:ME Python od - kurs zdalny' course.
 Project is a collection of sorting algorithms and comparison of their average sorting times in main.py file.
